@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Air Quality Prediction</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body background="/static/images/background1.jpg">
+<!-- Input Form -->
+<div  class="input form">
+  <form action="{{url_for('predict')}}"method="post" id="input head">
+    <h1 id="heading">Air Quality Prediction Form</h1>
+    <h3 id="input">Enter county</h3>
+    <input type="text" name="county" placeholder="county">
+    <input type="text" name="state" placeholder="state">
+    <input type="text" name="city" placeholder="city">
+    <br>
+    <br>
+    <button id="submit" type="submit">Submit</button>
+  </form>
+ 
+</div>
+   
+</body>
+</html>
